@@ -23,6 +23,7 @@ const GifGrid = ({ category }) => {
   //creo un afuncion
 
   //getGifs();
+  //Capitalizo
   const Category = category.charAt(0).toUpperCase() + category.slice(1);
   console.log(Category);
   return (
